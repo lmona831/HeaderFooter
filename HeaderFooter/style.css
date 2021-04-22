@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navigation */
+.navigation {
+    padding-top: 25px;
+}
+
+/* top */
+
+.top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f3eeee;
+    background-color: #fff;
+    z-index: 3;
+}
+
+.top-item .top-left ul {
+    margin: 0;
+    padding: 0;
+}
+
+.top-item .top-left ul li {
+    display: inline-block;
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: #3e9961;
+    margin-right: 25px;
+}
+
+.top-item .top-left ul li a {
+    text-decoration: none;
+    color: #3e9961;
+    display: inline-block;
+}
+
+.top-item .top-left ul li a i {
+    color: #3e9961;
+}
+
+.top-right {
+    text-align: right;
+}
+
+.top-right ul {
+    margin: 0;
+    padding: 0;
+}
+
+.top-right ul li {
+    display: inline-block;
+    margin-right: 10px;
+    list-style-type: none;
+    text-align: right;
+}
+
+.top-right ul li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: #ffffff;
+    background-color: #008000;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid transparent;
+    line-height: 25px;
+}
+
+
+.carousel-item {
+    height: 25rem;
+    background-color: #777;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-item .container {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    padding-bottom: 50px;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    padding-top: 80px;
+    padding-bottom: 70px;
+    background-image: url('images/background.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: relative;
+    
+}
+
+.footer-part {
+    margin-bottom: 30px;
+}
+
+
+.footer-part .contact h3, .footer-part .quick h3, .footer-part .feedback h3 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+
